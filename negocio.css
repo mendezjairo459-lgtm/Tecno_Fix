@@ -1,0 +1,197 @@
+h1{
+    text-align:center; 
+    font-size:50px !important;
+    
+}
+.sub{
+    text-align: center;
+    -webkit-text-stroke: 1.5px black; 
+    font-size:40px !important;
+    
+    
+}
+.p1{
+    text-align: center;
+    font-family:'Poppons',sans-serif !important;
+    font-size:22px ;
+}
+.p2{
+    text-align: center;
+    font-family:'Poppons',sans-serif !important;
+    font-size:22px ;
+}
+.p3{
+    text-align: center;
+    font-family:'Poppons',sans-serif !important;
+    font-size:22px ;
+}
+.p4{
+    text-align: center;
+    font-family:'Poppons',sans-serif !important;
+    font-size:22px ;
+}
+body{
+    background-color:white !important;
+}
+.foto{
+     display: block;
+ margin: 0 auto;
+}
+.contenedor {
+  display: flex;        /* Coloca los elementos en una fila */
+  align-items: center;  /* Centra verticalmente */
+  justify-content: flex-start; /* Alinea a la izquierda */
+}
+.f5{
+  width:670px;   /* Tamaño de la imagen */
+  height:450px;
+}
+.f6{
+  width:670px;
+  height:450px; 
+}
+body{
+    background-color:white !important;
+}
+.titulo{
+    text-align:center;
+    color:blue;
+    -webkit-text-stroke: 1.5px black; 
+    font-size:50px;
+}
+
+h2{
+    text-align:left; 
+    -webkit-text-stroke: 1.5px white; 
+    font-size:30px;
+}
+p{
+    font-size:25px;
+     font-family:'Poppons',sans-serif !important;
+
+  
+}
+  .contenedor1 {
+    background-color:black; /* azul */
+    color: white;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .contenedor2 {
+    background-color: #0056b3; /* azul más oscuro */
+    color: white;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .contenedor3 {
+    background-color: #2196f3; /* azul más claro */
+    color: white;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /* Opcional: que las imágenes tengan bordes redondeados */
+  .f1, .f2, .f3 {
+    border-radius: 30px;
+  }
+  .f1{
+    width:400px;
+  }
+  .f2{
+    width:400px;
+  }
+  .f3{
+    width:400px;
+  }
+  .contenedor4 {
+  display: flex;
+  justify-content: center; /* centra horizontalmente */
+  align-items: center; /* centra verticalmente */
+}
+.accesorios {
+  text-align: center;
+  background-color: #f8f9fa;
+  padding: 40px 20px;
+  border-radius: 10px;
+  margin: 30px 0;
+}
+
+.accesorios h2 {
+  color: #007bff;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.accesorios p {
+  font-size: 22px;
+  margin-bottom: 25px;
+  font-family:'Poppons',sans-serif !important;
+}
+
+.productos {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.producto {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  padding: 15px;
+  width: 220px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.producto:hover {
+  transform: scale(1.05);
+}
+
+.producto img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.producto h3 {
+  color: #333;
+  margin-top: 10px;
+}
+
+.producto p {
+  color: #007bff;
+  font-weight: bold;
+}
+.boton-comprar {
+  display: inline-block;
+  background-color: #25d366; /* verde WhatsApp */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 8px;
+}
+
+.boton-comprar:hover {
+  background-color: #1ebd5a;
+  transform: scale(1.05);
+}
